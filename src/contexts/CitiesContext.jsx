@@ -6,7 +6,8 @@ import {
   useReducer,
 } from 'react';
 
-const BASE_URL = 'http://localhost:8000';
+// const BASE_URL = 'http://localhost:8000';
+const BASE_URL = 'https://react-worldwise-db.vercel.app';
 
 const CitiesContext = createContext();
 
